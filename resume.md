@@ -1,100 +1,142 @@
-Johnny Coder
+Mustafa Simav
 ============
 
-----
-
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Backend Software Developer
 
 ----
+
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2009-2015 (expected)
+:   **Computer Engineering**; TOBB University of Economics and Technology (Ankara)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *Graduate Project: Scalabe Triple-Store Database designed as an Actor System with REST API and Web Interface*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+Jan 2014-Now
+:   **Backend Software Developer at VNGRS**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+    I work on various project and developed RESTFUL APIs for both web and mobile applications with
+    Agile teams and use Scrum framework.
 
-* First item
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+Dec 2012-Apr 2013
+:    **Intern at Labris Teknoloji**
 
-**That Other Job You Had**
+    I worked as a System Admin who is responsible for arranging legacy OS packages and migrating them from Centos 5 to Centos 6.
 
-Also with a short description.
+Jan 2012-Apr 2012
+:   **Intern at Anel ARGE**
 
-Technical Experience
+    I learned how to develop Android applications and improved my programming skill in Java.
+    I also learned basics of UI testing and bug reporting.
+
+
+Projects
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+SOR'UN
+:   **VNGRS:** Mobile platform for realtime chat with call center agents
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+    * Written in Scala
+    * Built with Play Framework with Akka Actors
+    * Every entity designed as an Actor and communicates each other by message passing
+    * Client-Server comminication implemented over WebSockets
+    * Entegrates different call center chat systems
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Mana Health
+:   **VNGRS:** Patient medical data aggregator
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+    * Worked as Java developer
+    * Measured causes of poor performance of the system and optimized it
+    * Designed new system by separating components of the system
+      hence different components could scale seperately for different scalability needs
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+Modiverse
+:   **VNGRS:** A Saas platform for remote android device management.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+    * Written in Scala
+    * Built with Play Framework
+    * Consumed API provided by our customer to develop a device management platform
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+Pushy-Scala
+:   Scala wrapper around pushy, a Java library for sending APNs. \
+    [https://github.com/msimav/pushy-scala](https://github.com/msimav/pushy-scala)
 
-[ref]: https://github.com/githubuser/superlongprojectname
+    * Written in Scala
+    * Just a DSL wrapper around actual library
 
-Extra Section, Call it Whatever You Want
+GDB4S
+:   Scalabe Triple-Store Database designed as an Actor System with REST API and Web Interface \
+    [https://github.com/msimav/gdb4s](https://github.com/msimav/gdb4s)
+
+    * Written in Scala
+    * Internal database design implemented with Akka Actors
+    * REST API implemented with Spray.io
+
+PyKana
+:   Fancy Web Application to Practice Japanese Alphabets and Vocabulary
+
+    * Written in Python
+    * Built with Django
+
+Multiplayer Game Server
+:   Simple Socket Based Server and Client for Multiplayer Board Games \
+    [https://github.com/msimav/Multiplayer-Game-Server](https://github.com/msimav/Multiplayer-Game-Server)
+
+    * Written in Java
+    * More sophisticated version of Simple Chat
+    * Designed and implemented basic protocol for multiplayer board games
+
+Simple Chat
+:   Simple Socket Based Chat Server
+
+    * Written in Java
+    * Fun project in freshman year
+    * Learned programming, network basics and git
+
+Technichal Skills
 ----------------------------------------
 
-* Human Languages:
+* Operating Systems:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+    *Ubuntu • Debian • Centos*
 
-* Random tidbit
+* Programming Languages:
 
-* Other sort of impressive-sounding thing you did
+    *Scala • Python • Java*
+
+* Frameworks:
+
+    *Play Framework • Akka.io • Spray.io • Django • AngularJS*
+
+* Web:
+
+    *HTML • CSS • Javascript • Coffeescript*
+
+* Database Systems:
+
+    *PostgreSQL • MySQL • Redis • Mongodb • Neo4J*
+
+* Version Control:
+
+    *git*
+
+
+Language Skills
+----------------------------------------
+
+* Turkish (native speaker)
+* English (fluent)
+* Italian (beginer)
+
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <ms@msimav.net> • +90 535 508 58 33\
+> Sakızgülü sok. Taranto apt. No: 7 Daire: 6 Bahariye - Kadıköy, İstanbul
