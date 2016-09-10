@@ -22,11 +22,9 @@ rtf: resume.rtf
 resume.rtf: resume.md
 	pandoc -s -S resume.md -o resume.rtf
 
+requirements:
+	brew install pandoc
+	brew cask install mactex
+
 clean:
-	rm resume.html
-	rm resume.tex
-	rm resume.tuc
-	rm resume.log
-	rm resume.pdf
-	rm resume.docx
-	rm resume.rtf
+	@rm resume.html resume.tex resume.tuc resume.log resume.pdf resume.docx resume.rtf 2> /dev/null || true
