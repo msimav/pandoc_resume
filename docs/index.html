@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="mustafa-simav">Mustafa Simav</h1>
+<blockquote>
+<p>Software Developer</p>
+</blockquote>
+<hr />
+<h2 id="education">Education</h2>
+<dl>
+<dt>2009-2017 (expected)</dt>
+<dd><strong>Computer Engineering</strong>; TOBB University of Economics and Technology (Ankara)
+</dd>
+</dl>
+<h2 id="experience">Experience</h2>
+<dl>
+<dt>Jan 2014-Now</dt>
+<dd><p><strong>Backend Developer at VNGRS</strong></p>
+<p>As a backend developer, I work on various project and develop several RESTFUL APIs for both web applications and mobile applications in Agile teams that use Scrum framework.</p>
+</dd>
+<dt>Dec 2012-Apr 2013</dt>
+<dd><p><strong>Intern at Labris Teknoloji</strong></p>
+<p>As a system administrator, I enhance company's CentOS packages for network security device and I migrated whole system from CentOS 5 to CentOS 6.</p>
+</dd>
+<dt>Jan 2012-Apr 2012</dt>
+<dd><p><strong>Intern at Anel ARGE</strong></p>
+<p>As a developer, I learned how to develop Android applications and improved my programming skill in Java. I also learned basics of functional testing, bug reporting and project management.</p>
+</dd>
+</dl>
+<h2 id="projects">Projects</h2>
+<dl>
+<dt>Open Performance</dt>
+<dd><p><strong>Current</strong> Performance management solution to establish and communicate goals and tangible achievements</p>
+<ul>
+<li>Backend written in Scala</li>
+<li>Built with home-grown http framework</li>
+<li>Modernizing legacy code and improving performance while implementing new features</li>
+</ul>
+</dd>
+<dt>Pulse</dt>
+<dd><p>Realtime data processing and visualization</p>
+<ul>
+<li>Backend written in Scala</li>
+<li>Built with Spray and Akka Reactive Streams</li>
+<li>Each data processing unit is a reactive stream, supervised by an actor in a Akka cluster for scalability and resilience</li>
+</ul>
+</dd>
+<dt>FitPartner</dt>
+<dd><p>Mobile app for fitness tracking with a fitness partner</p>
+<ul>
+<li>Backend written in Ruby</li>
+<li>Built with Ruby on Rails</li>
+</ul>
+</dd>
+<dt>SOR'UN</dt>
+<dd><p>Mobile platform for realtime chat with call center agents</p>
+<ul>
+<li>Written in Scala, built with Play Framework and akka</li>
+<li>Every entity designed as an Actor, communicating each other by message passing</li>
+<li>Client-Server communication over WebSockets</li>
+<li>Integrated with various call center solutions</li>
+</ul>
+</dd>
+<dt>Mana Health</dt>
+<dd><p>Patient medical data aggregator</p>
+<ul>
+<li>Worked as Java developer on existing project</li>
+<li>Measured causes of poor performance in the system and optimized them</li>
+<li>Designed new system by separating components hence different components could scale separately for different scalability needs</li>
+</ul>
+</dd>
+<dt>Modiverse</dt>
+<dd><p>A SAAS platform for remote android device management</p>
+<ul>
+<li>Written in Scala</li>
+<li>Built with Play Framework</li>
+</ul>
+</dd>
+<dt>Enforce</dt>
+<dd><p>Mobile app to report urban problems to municipalities</p>
+<ul>
+<li>Developed Android application</li>
+<li>Contestant of Google's Social Entrepreneurship Hackathon</li>
+</ul>
+</dd>
+</dl>
+<h2 id="certifications">Certifications</h2>
+<ul>
+<li>AWS Certified Solutions Architect Associate - <em>May 2016 – May 2018</em></li>
+<li>Principles of Reactive Programming - <em>January 2014</em></li>
+<li>Functional Programming Principles in Scala - <em>December 2012</em></li>
+</ul>
+<h2 id="technichal-skills">Technichal Skills</h2>
+<pre><code>Scala • Ruby • Java • Python
+Play Framework • akka • spray.io • Ruby on Rails
+PostgreSQL • MySQL • Cassandra • redis
+sbt • jenkins • git</code></pre>
+<h2 id="language-skills">Language Skills</h2>
+<ul>
+<li>Turkish (native speaker)</li>
+<li>English (fluent)</li>
+</ul>
+<hr />
+<blockquote>
+<p><a href="mailto:ms@msimav.net">ms@msimav.net</a> • <a href="https://github.com/msimav" class="uri">https://github.com/msimav</a> • +90 535 508 58 33<br />
+Sakızgülü sok. Taranto apt. No: 7 Daire: 6 Bahariye - Kadıköy, İstanbul<br />
+<a href="resume.pdf">pdf</a> • <a href="resume.docx">docx</a></p>
+</blockquote>
+</body>
+</html>
