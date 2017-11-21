@@ -9,7 +9,7 @@ Mustafa Simav
 Education
 ---------
 
-2009-2017 (expected)
+2009-2018 (expected)
 :   **Computer Engineering**; TOBB University of Economics and Technology (Ankara)
 
 
@@ -17,10 +17,11 @@ Experience
 ----------
 
 Jan 2014-Now
-:   **Backend Developer at VNGRS**
+:   **Software Developer at VNGRS**
 
-    As a backend developer, I work on various project and develop several RESTFUL APIs
-    for both web applications and mobile applications in Agile teams that use Scrum framework.
+    As a backend developer, I work on various projects and develop several RESTFUL APIs
+    for both web applications and mobile applications in Agile teams that use Scrum framework,
+    design new systems as well as maintain old ones, benchmark performance and improve bottlenecks.
 
 
 Dec 2012-Apr 2013
@@ -39,8 +40,14 @@ Jan 2012-Apr 2012
 Projects
 --------------------
 
+Activity Feed
+:   **Current** Event driven activity tracking and audit system that supports various activities and complex queries
+
+    * Event consumer written in Scala, storage and query systems integrated current system in Java
+    * Built with http4s, circe and Monix
+
 Open Performance
-:   **Current** Performance management solution to establish and communicate goals and tangible achievements
+:   Performance management solution to establish and communicate goals and tangible achievements
 
     * Backend written in Scala
     * Built with home-grown http framework
@@ -98,9 +105,10 @@ Technichal Skills
 ----------------------------------------
 
     Scala • Ruby • Java • Python
-    Play Framework • akka • spray.io • Ruby on Rails
-    PostgreSQL • MySQL • Cassandra • redis
+    Play Framework • akka • http4s • Monix • Ruby on Rails
+    PostgreSQL • MySQL • Cassandra • redis • memcached
     sbt • jenkins • git
+    AWS • docker • nix • marathon • mesos
 
 
 Language Skills
