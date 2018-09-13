@@ -9,6 +9,12 @@ docs/resume.pdf: style_chmduquesne.tex resume.md
 	context resume.tex
 	mv resume.pdf docs/
 
+cover: cover-letter.pdf
+cover-letter.pdf: cover-letter/template-letter.tex cover-letter/cover-letter.md
+	pandoc --template cover-letter/template-letter.tex \
+	-V papersize=A4 \
+	-o cover-letter.pdf cover-letter/cover-letter.md; \
+
 html: docs/index.html
 docs/index.html: style_chmduquesne.css resume.md links.md
 	pandoc --standalone -H style_chmduquesne.css \
