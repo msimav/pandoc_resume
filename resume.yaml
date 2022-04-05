@@ -1,0 +1,156 @@
+# https://jsonresume.org/schema/
+$schema: https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json
+meta:
+  theme: actual
+basics:
+  name: Mustafa Simav
+  label: Senior Software Engineer
+  image: https://avatars.githubusercontent.com/u/768611?v=4
+  summary: >-
+    Senior Software Engineer with 8+ years of work experience specializing in building highly
+    scalable backend systems. Consistently recognized as a skilled developer, good team player, and
+    enthusiastic learner.
+  email: ms@msimav.net
+  phone: +90 535 508 58 33
+  location:
+    city: Istanbul
+    countryCode: TR
+  profiles:
+    - url: 'https://github.com/msimav'
+      username: msimav
+      network: github
+    - url: 'https://stackoverflow.com/users/806261'
+      username: mustafa-simav
+      network: stackoverflow
+    - url: https://resume.msimav.net
+    - url: https://resume.msimav.net/resume.pdf
+education:
+  - endDate: '2020-07-09'
+    startDate: '2009-08-31'
+    area: Computer Engineering
+    studyType: B.Sc.
+    institution: TOBB University of Economics and Technology
+    url: "https://www.etu.edu.tr/en/bolum/computer-engineering"
+    score: "3.41"
+skills:
+  - keywords:
+      - Python
+      - Scala
+      - Go
+      - Java
+    name: Language
+  - keywords:
+      - Django
+      - Akka
+    name: Frameworks
+  - keywords:
+      - PostgreSQL
+      - Kafka
+      - Elasticsearch
+      - Redis
+      - RabbitMQ
+      - Flink
+    name: Data
+  - keywords:
+      - AWS
+      - Kubernetes
+      - Google Cloud
+      - Docker
+      - Cloudflare
+    name: Cloud
+work:
+  - position: Senior Software Developer
+    name: trustmeup.com
+    url: https://www.trustmeup.com
+    startDate: 2020-08
+    summary: >-
+      TrustMeUp is a small company based in Europe that builds a marketplace to bring together NGOs, people, and companies for doing good
+    highlights:
+      - Develop new features of the core platform
+      - Research and deploy blockchain technologies for financial applications
+      - Improve developer tooling and business automation
+  - position: Senior Software Developer
+    name: xenn.io
+    url: https://xenn.io
+    startDate: 2019-03
+    endDate: 2020-07
+    summary: >-
+      xenn.io is a SaaS startup that develops event analytics and data lake solutions for e-commerce companies
+    highlights:
+      - Develop new features of the platform and implement data pipelines to support those futures
+      - Make POCs for different data tools to solve common e-commerce problems
+      - Work closely with the DevOps team to improve the scaling of the working systems, monitoring, and alerts
+  - position: Software Developer
+    name: Logsign
+    url: https://www.logsign.com
+    startDate: 2018-05
+    endDate: 2019-02
+    summary: >-
+      Logsign is a company that builds network security devices and security automation software for big enterprises and government agencies
+    highlights:
+      - Develop the new security automation product with Go
+      - Help the company to adopt modern software development methodologies and tools such as Scrum and CI/CD
+  - position: Software Developer
+    name: VNGRS
+    url: https://vngrs.com
+    startDate: 2014-01
+    endDate: 2018-03
+    summary: >-
+      VNGRS is a software consultancy company that works as your remote team dedicated to your project
+    highlights:
+      - Worked for many customers ranging from small startups to middle-sized tech firms around the world
+      - Developed both small prototypes for new ideas
+      - Worked on mission-critical systems
+      - Benchmarked and improved performance issues
+      - Maintained and modernized legacy systems
+      - Designed new systems from scratch
+
+projects:
+  - name: TMU Platform
+    description: >
+      A charity platform aiming to be fully transparent on where donations are spent, using blockchain technologies.
+    highlights:
+      - Built as a Django monolith and a Hyperledger Fabric network
+      - Runs on AWS with ECS and RDS
+    keywords:
+      - Python
+      - Django
+      - AWS
+      - Hyperledger Fabric
+  - name: Wamo Core
+    description: >
+      A set of API Services aiming to deliver Multi-Channel Payment and Open Banking capabilities, alongside the complementary functionality for multiple tenants, in multiple regions with multiple business processes with the vision of making embedded finance accessible to everyone.
+    highlights:
+      - Built as a group of microservices, designed with an API-first approach, written in Java
+      - Deployed to AWS with docker on Kubernetes
+  - name: xenn.io
+    description: >
+      A personalization product specialized for e-commerce applications, backed by a real-time clickstream event collector and data lake
+    highlights:
+      - Built as a group of microservices, mostly written in Scala
+      - Deployed to AWS with docker on Kubernetes
+      - Use Flink and Akka-Streams for CEP
+  - name: Playbook Engine
+    description: >
+      An automation engine that let users build complex scenarios to be executed on various events that happened
+    highlights:
+      - Built with Go with some extensions written in Python
+  - name: Activity Feed
+    description: >
+      Event-driven activity tracking and audit system for internal usage that supports various activities and complex queries
+    highlights:
+      - Event consumer is written in Scala, persistence and query systems are integrated current system in Java
+      - Built with http4s, circe, and Monix
+  - name: Open Performance
+    description: >
+      Performance management solution to establish and communicate goals and tangible achievements
+    highlights:
+      - The backend was written in Scala with a home-grown HTTP framework
+      - Modernized legacy code and improved performance while implementing new features
+languages:
+  - language: Turkish
+    fluency: native speaker
+  - language: English
+    fluency: fluent
+  - language: Italian
+    fluency: beginner

@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "develop": "npm-watch",
+    "package": "yarn build:json && yarn build:html && yarn build:pdf",
+    "build:html": "resume export docs/index.html --format html --theme actual",
+    "build:pdf": "resume export docs/resume.pdf --format pdf --theme actual",
+    "build:letter": "resume export letter.pdf --format pdf --theme actual-letter",
+    "build:json": "yaml2json --save resume.yaml"
+  },
+  "watch": {
+    "build:html": "resume.json",
+    "build:json": "resume.yaml"
+  },
+  "dependencies": {
+    "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-actual-letter": "^0.1.4",
+    "npm-watch": "^0.11.0",
+    "resume-cli": "^3.0.5",
+    "yamljs": "^0.3.0"
+  }
+}
