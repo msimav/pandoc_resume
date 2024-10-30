@@ -7,14 +7,16 @@ basics:
   label: Senior Software Engineer
   image: https://avatars.githubusercontent.com/u/768611?v=4
   summary: >-
-    Senior Software Engineer with 8+ years of work experience specializing in building highly
+    Senior Software Engineer with 10+ years of work experience specializing in building highly
     scalable backend systems. Consistently recognized as a skilled developer, good team player, and
     enthusiastic learner.
   email: ms@msimav.net
-  phone: +90 535 508 58 33
+  phone: +31 6 84 65 04 59
   location:
-    city: Istanbul
-    countryCode: TR
+    address: Panamalaan 70
+    postalCode: 1019 AZ
+    city: 1019 AZ, Amsterdam
+    countryCode: NL
   profiles:
     - url: 'https://github.com/msimav'
       username: msimav
@@ -34,10 +36,10 @@ education:
     score: "3.41"
 skills:
   - keywords:
+      - Java
       - Python
       - Scala
       - Go
-      - Java
     name: Language
   - keywords:
       - Django
@@ -59,12 +61,26 @@ skills:
       - Cloudflare
     name: Cloud
 work:
+  - position: Software Engineer in Payments
+    name: Adyen
+    url: https://www.adyen.com
+    location: Amsterdam, the Netherlands
+    startDate: 2022-11
+    summary: >-
+      Adyen is a financial technology platform that helps businesses grow.
+      It provides an end-to-end payments, data, and financial management in a single technology platform that helps you realize your ambitions faster.
+    highlights:
+      - Maintain various card payment methods as part of payment engine product
+      - Make complience changes required by our partners in the payment industry
+      - Improve testability, observability and reliability of the payment engine platform
   - position: Senior Software Developer
     name: trustmeup.com
     url: https://www.trustmeup.com
+    location: Istanbul, Turkey
     startDate: 2020-08
+    endDate: 2022-09
     summary: >-
-      TrustMeUp is a small company based in Europe that builds a marketplace to bring together NGOs, people, and companies for doing good
+      TrustMeUp is a small company that builds a marketplace to bring together NGOs, people, and companies for doing good
     highlights:
       - Develop new features of the core platform
       - Research and deploy blockchain technologies for financial applications
@@ -72,6 +88,7 @@ work:
   - position: Senior Software Developer
     name: xenn.io
     url: https://xenn.io
+    location: Istanbul, Turkey
     startDate: 2019-03
     endDate: 2020-07
     summary: >-
@@ -83,6 +100,7 @@ work:
   - position: Software Developer
     name: Logsign
     url: https://www.logsign.com
+    location: Istanbul, Turkey
     startDate: 2018-05
     endDate: 2019-02
     summary: >-
@@ -93,6 +111,7 @@ work:
   - position: Software Developer
     name: VNGRS
     url: https://vngrs.com
+    location: Istanbul, Turkey
     startDate: 2014-01
     endDate: 2018-03
     summary: >-
@@ -152,5 +171,7 @@ languages:
     fluency: native speaker
   - language: English
     fluency: fluent
+  - language: Dutch
+    fluency: beginner
   - language: Italian
     fluency: beginner
